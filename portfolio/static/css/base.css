@@ -1,11 +1,11 @@
-{% load static %}
 
-
-
-
+body{
+    background  : url('/static/images/background_image.jpeg');
+    background-size: cover;
+}
 
 
 h1 {
-  color: LightGray;
+  color: rgba(5, 4, 4, 0.966);
 }
 

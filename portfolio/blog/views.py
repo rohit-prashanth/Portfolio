@@ -1,7 +1,9 @@
 from django.shortcuts import render
+from .models import STUDENTS
 
 def blog(request):
-    return render(request,'blog/blog.html')
+    data = STUDENTS.objects.all()
+    return render(request,'blog/blog.html',{"data":data})
 
 def bio(request):
     return render(request,'blog/bio.html')

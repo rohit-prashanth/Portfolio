@@ -19,6 +19,34 @@
 
   <div class="container">
     <h1>Hello, world! This is my home Page</h1>
+    <br><br>
+
+    <table class="table table-dark table-striped" style="">
+      <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NAME</th>
+      <th scope="col">AGE</th>
+      <th scope="col">GENDER</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% if data %}
+      {% for i in data %}
+      <tr>
+        <th scope="row"> {{i.id}} </th>
+        <td> {{i.name}} </td>
+        <td> {{i.age}} </td>
+        <td> {{i.gender}} </td>
+      </tr>
+      {% endfor %}
+    {% else %}
+      <h1> No Data Available </h1>
+    {% endif %}
+
+  </tbody>
+    </table>
   </div>
 
 
