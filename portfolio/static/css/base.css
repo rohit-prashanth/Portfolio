@@ -9,16 +9,17 @@
 
 body{
   background-image: url('/static/images/social_media.jpg');
-
 }
 
 
-
-h1{
+/*
+{
   color: #dee2e6;
   font-family: cursive;
 }
-h3,h5,p,#nav1,#nav2,#nav3{
+
+*/
+h1,h3,h5,p,#nav1,#nav2,#nav3{
     font-family: cursive;
     color: #000814;
 }
@@ -40,8 +41,6 @@ h3,h5,p,#nav1,#nav2,#nav3{
 }
 
 
-
-
 #inner_post{
     background-color: #f8f9fa;
     border-radius: 300px 0px;
@@ -49,5 +48,26 @@ h3,h5,p,#nav1,#nav2,#nav3{
     padding: 70px 60px;
 }
 
+#freelancer{
+    background-color: #f8f9fa;
+    border-radius: 300px 0px;
+    opacity: 0.8;
+    padding: 300px 100px;
+    font-family: cursive;
+}
 
+#text{
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
 
+#table_container{
+    background-color: #f8f9fa;
+    border-radius: 300px 0px;
+    opacity: 0.8;
+    padding: 150px 50px;
+    font-family: cursive;
+}
