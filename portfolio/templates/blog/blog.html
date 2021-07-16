@@ -17,37 +17,47 @@
   </head>
   <body>
 
-  <div class="container">
-    <h1>Hello, world! This is my home Page</h1>
     <br><br>
+    <center>
+          <h1 id="heading">
+            --Welcome To My Portfolio--
+          </h1>
+    </center>
+    <br><br><
 
-    <table class="table table-dark table-striped" style="">
-      <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">NAME</th>
-      <th scope="col">AGE</th>
-      <th scope="col">GENDER</th>
-    </tr>
-  </thead>
-  <tbody>
+    <div class="container">
+      <div class="row justify-content-md-center">
+    <div class="col" id="inner_post">
+      <center>
+        <h3>
+          Rohit Prashant Kannam
+          <small class="text-muted"> <h5> Software Developer </h5> </small>
+      </h3>
+        <div style="">
+            <p style="font-family: cursive;">
+              <b>
+                ---I am a web developer and designer and I combine both effectively in an amazing way.
+        I use the power of CSS in a blend with animations to create a dynamic four-direction navigation website.
+        Most websites will ordinarily exist in a stretch where you get to find a thing on a scroll but I have changed
+        this rule so you can click on your choice button from any of the four cardinal positions.---
+              </b>
 
-    {% if data %}
-      {% for i in data %}
-      <tr>
-        <th scope="row"> {{i.id}} </th>
-        <td> {{i.name}} </td>
-        <td> {{i.age}} </td>
-        <td> {{i.gender}} </td>
-      </tr>
-      {% endfor %}
-    {% else %}
-      <h1> No Data Available </h1>
-    {% endif %}
+      </p>
+        </div>
 
-  </tbody>
-    </table>
+      </center>
+    </div>
+    <div class="col-md-auto">
+
+    </div>
+    <div class="col col-lg-3">
+      <center>
+              <img src="{% static 'images/rohit_photo1.png' %}" height="300" width="250" style="border-radius: 0px 100px;">
+      </center>
+    </div>
   </div>
+    </div>
+
 
 
 

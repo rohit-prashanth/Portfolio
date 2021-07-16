@@ -1,11 +1,53 @@
 
+/* url('/static/images/background_image.jpeg') */
+
+/* background  :  #343a40; */
+/*background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+   */
+
 body{
-    background  : url('/static/images/background_image.jpeg');
-    background-size: cover;
+  background-image: url('/static/images/social_media.jpg');
+
 }
 
 
-h1 {
-  color: rgba(5, 4, 4, 0.966);
+
+h1{
+  color: #dee2e6;
+  font-family: cursive;
 }
+h3,h5,p,#nav1,#nav2,#nav3{
+    font-family: cursive;
+    color: #000814;
+}
+
+#logo{
+  border-radius: 70px 25px;
+  border-right-style: dotted;
+  border-top-color: black;
+}
+
+
+#heading{
+  height: auto;
+  width: 38%;
+  background-color: #f8f9fa;
+  opacity: 0.8;
+  border-radius: 300px 100px;
+  color: #000814;
+}
+
+
+
+
+#inner_post{
+    background-color: #f8f9fa;
+    border-radius: 300px 0px;
+    opacity: 0.8;
+    padding: 70px 60px;
+}
+
+
 
