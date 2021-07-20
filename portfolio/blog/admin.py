@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import ContactMeTable
 
-# Register your models here.
+
+@admin.register(ContactMeTable)
+class UserContactAdmin(admin.ModelAdmin):
+    list_display = ('name','email','info')

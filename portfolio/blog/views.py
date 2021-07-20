@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import STUDENTS
+from .models import ContactMeTable
+from .forms import user_contact_form
 
 def blog(request):
-    data = STUDENTS.objects.all()
-    return render(request,'blog/blog.html',{"data":data})
+    return render(request,'blog/blog.html')
 
 def bio(request):
     return render(request,'blog/bio.html')
@@ -11,6 +11,16 @@ def bio(request):
 def education(request):
     return render(request,'blog/education.html')
 
-def activities(request):
-    return render(request,'blog/activities.html')
+def contact(request):
+    if request.method == "POST":
+        form = user_contact_form(request.POST)
+        if form.is_valid():
+            data = ContactMeTable(name=form.cleaned_data['name'], email=form.cleaned_data['email'], info=form.cleaned_data['additionaldetails'])
+            data.save()
+        return render(request,'blog/thankyou_page.html')
+    else:
+        form = user_contact_form()
+        return render(request,'blog/contact.html',{'form':form})
 
+def thankyou(request):
+    return render(request,'blog/thankyou_page.html')

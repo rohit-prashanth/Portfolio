@@ -1,8 +1,8 @@
 from django.db import models
 
-class STUDENTS(models.Model):
+class ContactMeTable(models.Model):
     name = models.CharField(max_length = 20)
-    age = models.IntegerField()
-    gender = models.CharField(max_length = 10)
+    email = models.EmailField()
+    info = models.TextField(max_length = 500)
 
 
