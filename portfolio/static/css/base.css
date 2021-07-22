@@ -72,6 +72,16 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
     font-family: cursive;
 }
 
+#bio_content{
+    background-color: #f8f9fa;
+    border-radius: 300px 0px;
+    opacity: 0.8;
+    padding: 100px 50px;
+    font-family: cursive;
+}
+
+
+
 #formdiv{
     background-color: #f8f9fa;
     border-radius: 300px 0px;
