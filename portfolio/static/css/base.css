@@ -76,7 +76,7 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
     background-color: #f8f9fa;
     border-radius: 300px 0px;
     opacity: 0.8;
-    padding: 100px 50px;
+    padding: 100px 100px;
     font-family: cursive;
 }
 
@@ -85,7 +85,7 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
 #formdiv{
     background-color: #f8f9fa;
     border-radius: 300px 0px;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 100px 50px;
     font-family: cursive;
 }
