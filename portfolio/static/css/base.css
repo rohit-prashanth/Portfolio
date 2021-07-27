@@ -8,7 +8,7 @@
    */
 
 body{
-  background-image: url('/static/images/social_media.jpg');
+  background-image: url('/static/images/ras_background_image.jpg');
 }
 
 
@@ -19,10 +19,16 @@ body{
 }
 
 */
-h1,h3,h5,p,#nav1,#nav2,#nav3{
+h1,h3,h5,p{
     font-family: cursive;
-    color: #000814;
+    color: #9e2a2b;
 }
+
+#nav1,#nav2,#nav3,#follow-me{
+    font-family: cursive;
+    color: #eddcd2;
+}
+
 
 #logo{
   border-radius: 70px 25px;
@@ -34,24 +40,24 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
 #heading{
   height: auto;
   width: 38%;
-  background-color: #f8f9fa;
+  background-color: #f9dcc4;
   opacity: 0.8;
-  border-radius: 300px 100px;
+  border-radius: 200px 100px;
   color: #000814;
 }
 
 
 #inner_post{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
-    opacity: 0.8;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
+    opacity: 1;
     padding: 70px 60px;
 }
 
 #freelancer{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
-    opacity: 0.8;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
+    opacity: 1;
     padding: 300px 100px;
     font-family: cursive;
 }
@@ -65,24 +71,24 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
 }
 
 #formdiv,#table_container{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
-    opacity: 0.8;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
+    opacity: 1;
     padding: 150px 50px;
     font-family: cursive;
 }
 
 #bio_content{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
-    opacity: 0.9;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
+    opacity: 1;
     padding: 100px 100px;
     font-family: cursive;
 }
 
 #bio_content1{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
     opacity: 1;
     padding: 100px 100px;
     font-family: cursive;
@@ -91,9 +97,9 @@ h1,h3,h5,p,#nav1,#nav2,#nav3{
 
 
 #formdiv{
-    background-color: #f8f9fa;
-    border-radius: 300px 0px;
-    opacity: 0.9;
+    background-color: #f9dcc4;
+    border-radius: 200px 100px;
+    opacity: 1;
     padding: 100px 50px;
     font-family: cursive;
 }
